@@ -24,4 +24,5 @@ public class HashMapTest {
 		System.out.println(hashMap);
 		Assert.assertEquals(2, (int) frequency);
 	}
+
 }
