@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class HashMapTest {
 	@Test
-	public void givenSentenceReturnFrequencyOfEachWords() {
+	public void givenSentenceReturnFrequencyOfEachWord() {
 		String sentence = "To be or not to be";
 		HashMap<String, Integer> hashMap = new HashMap<>();
 		String[] words = sentence.toLowerCase().split(" ");
